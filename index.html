@@ -1,20 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="description" content="Stats Preview Card Component">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | Stats preview card component</title>
-</head>
-<body>
-  Get insights that help your business grow.
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Stats Preview Card Component" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="insights">
+        <picture class="insights__img">
+          <source
+            media="(min-width: 768px)"
+            srcset="./images/image-header-desktop.jpg"
+          />
+          <img
+            src="./images/image-header-mobile.jpg"
+            alt=""
+            width="654"
+            height="480"
+          />
+        </picture>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+        <h1 class="insights__title">
+          Get insights that help your business grow.
+        </h1>
+        <p class="insights__desc">
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
 
-  10k+ companies
-  314 templates
-  12m+ queries
-</body>
+        <div class="insights__stats">
+          <p><span>10k+</span> companies</p>
+          <p><span>314</span> templates</p>
+          <p><span>12m+</span> queries</p>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
