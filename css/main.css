@@ -15,6 +15,8 @@
 }
 
 :root {
+  --radius: 0.5rem;
+
   /* colors */
   --accent: hsl(277, 64%, 61%);
   --primary-main: hsl(233, 47%, 7%);
@@ -29,7 +31,7 @@
   --ff-secondary: "Lexend Deca", sans-serif;
 
   --fs-title: clamp(1.75rem, 1.6071rem + 0.7143vw, 2.25rem);
-  --fs-desc: 0.9375rem;
+  --fs-desc: 1rem;
   --fs-stats-n: 1.5rem;
   --fs-stats-desc: 0.875rem;
 
@@ -38,8 +40,7 @@
 
   /* spacings */
   --spacing-content: clamp(2.25rem, 1.6071rem + 3.2143vw, 4.5rem);
-  --spacing-title: clamp(2.75rem, 2.1071rem + 3.2143vw, 5rem) 0
-    clamp(1.375rem, 1.1964rem + 0.8929vw, 2rem) 0;
+  --spacing-title: 0.5rem 0 clamp(1.375rem, 1.1964rem + 0.8929vw, 2rem) 0;
   --spacing-desc: clamp(3.25rem, 2.6786rem + 2.8571vw, 5.25rem);
   --spacing-stats: clamp(2.25rem, 1.8214rem + 2.1429vw, 3.75rem);
 }
