@@ -39,6 +39,7 @@
   font-size: var(--fs-title);
   font-weight: var(--fw-bold);
   margin: var(--spacing-title);
+  max-width: 16ch;
 }
 
 .insights__title span {
@@ -52,6 +53,7 @@
 
   color: var(--neutral-200);
   margin-block-end: var(--spacing-desc);
+  max-width: 72ch;
 }
 
 .insights__stats {
